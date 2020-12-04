@@ -49,7 +49,7 @@ func (c *Client) AuthorizeToken(ctx context.Context) (string, error) {
 
 // Auth1Fms returns authToken, keyLength, keyOffset and error.
 func (c *Client) Auth1Fms(ctx context.Context) (string, int64, int64, error) {
-	apiEndpoint := apiPath(apiV2, "auth1_fms")
+	apiEndpoint := apiPath(apiV2, "auth1")
 
 	req, err := c.newRequest(ctx, "POST", apiEndpoint, &Params{
 		header: map[string]string{
@@ -87,7 +87,7 @@ func (c *Client) Auth1Fms(ctx context.Context) (string, int64, int64, error) {
 
 // Auth2Fms enables the given authToken.
 func (c *Client) Auth2Fms(ctx context.Context, authToken, partialKey string) ([]string, error) {
-	apiEndpoint := apiPath(apiV2, "auth2_fms")
+	apiEndpoint := apiPath(apiV2, "auth2")
 
 	req, err := c.newRequest(ctx, "POST", apiEndpoint, &Params{
 		header: map[string]string{
