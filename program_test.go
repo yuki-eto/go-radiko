@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/yyoshiki41/go-radiko/internal/util"
+	"github.com/yuki-eto/go-radiko/internal/util"
 )
 
 func TestGetStations(t *testing.T) {

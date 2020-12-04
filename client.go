@@ -31,9 +31,9 @@ const (
 	radikoKeyOffsetHeader  = "X-Radiko-KeyOffset"
 	radikoPartialKeyHeader = "X-Radiko-Partialkey"
 
-	radikoApp        = "pc_ts"
-	radikoAppVersion = "4.0.0"
-	radikoUser       = "test-stream"
+	radikoApp        = "pc_html5"
+	radikoAppVersion = "0.0.1"
+	radikoUser       = "dummy_user"
 	radikoDevice     = "pc"
 )
 

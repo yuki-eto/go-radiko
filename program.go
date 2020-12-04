@@ -10,7 +10,7 @@ import (
 	"path"
 	"time"
 
-	"github.com/yyoshiki41/go-radiko/internal/util"
+	"github.com/yuki-eto/go-radiko/internal/util"
 )
 
 // Stations is a slice of Station.

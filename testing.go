@@ -24,7 +24,7 @@ func init() {
 	}
 
 	GOPATH := os.Getenv("GOPATH")
-	testdataDir = filepath.Join(GOPATH, "src", "github.com/yyoshiki41/go-radiko", "testdata")
+	testdataDir = filepath.Join(GOPATH, "src", "github.com/yuki-eto/go-radiko", "testdata")
 }
 
 // For skipping tests.
